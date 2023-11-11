@@ -22,6 +22,17 @@
   dependencies:
     "@automerge/automerge-repo" "^1.0.17"
 
+"@automerge/automerge-repo-network-websocket@^1.0.17":
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/@automerge/automerge-repo-network-websocket/-/automerge-repo-network-websocket-1.0.17.tgz#3c61d9ef1cd9ff80476b76d0e1b6c9c4b0edfe8a"
+  integrity sha512-yz5AWRghjusnuCBcOsV6wmnNy5dXELapOJsXFVQksWNjP/kS+VBn0w1tJA5dx4ik15zx32l/EcNwY/WuINK8XA==
+  dependencies:
+    "@automerge/automerge-repo" "^1.0.17"
+    cbor-x "^1.3.0"
+    eventemitter3 "^5.0.1"
+    isomorphic-ws "^5.0.0"
+    ws "^8.7.0"
+
 "@automerge/automerge-repo-react-hooks@^1.0.17":
   version "1.0.17"
   resolved "https://registry.yarnpkg.com/@automerge/automerge-repo-react-hooks/-/automerge-repo-react-hooks-1.0.17.tgz#e3d4cbae8d522a8619a38f07fa1ce9c6784bff1e"
@@ -1415,6 +1426,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+isomorphic-ws@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/isomorphic-ws/-/isomorphic-ws-5.0.0.tgz#e5529148912ecb9b451b46ed44d53dae1ce04bbf"
+  integrity sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -1891,6 +1907,11 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
+
+ws@^8.7.0:
+  version "8.14.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
+  integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
 
 xstate@^4.37.0:
   version "4.38.3"

@@ -9,8 +9,14 @@ import { IndexedDBStorageAdapter } from "@automerge/automerge-repo-storage-index
 import {next as A} from "@automerge/automerge" //why `next`? See the the "next" section of the conceptual overview
 import { RepoContext } from '@automerge/automerge-repo-react-hooks'
 
+import { BrowserWebSocketClientAdapter } from "@automerge/automerge-repo-network-websocket"
+
 const repo = new Repo({
-  network: [new BroadcastChannelNetworkAdapter()],
+  network: [
+      new BroadcastChannelNetworkAdapter(),
+      // This is the new line
+      new BrowserWebSocketClientAdapter('wss://sync.automerge.org')
+  ],
   storage: new IndexedDBStorageAdapter(),
 })
 
